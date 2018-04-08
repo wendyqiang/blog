@@ -15,8 +15,8 @@ date_format: '%Y-%m-%d'
 github: [metadata]
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
-url:
-baseurl:
+url: https://wendyqiang.github.io
+baseurl: /blog
 permalink: pretty
 
 # Pagination
@@ -412,7 +412,7 @@ gitalk:
   enable: true
   clientID: 6a2cd72582f80d4e904b
   clientSecret: 1613d6f90b5799da19685925c3047025ab298c69
-  repo: wendyqiang.github.io
+  repo: wendyqiang.github.io/blog
   owner: wendyqiang
   admin: wendyqiang
 
