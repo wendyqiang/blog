@@ -7,11 +7,12 @@
 title: NexT
 subtitle:
 description:
-author: John Doe
+author: Wendy Qiang
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
-language: en
+language: zh-Hans
 date_format: '%Y-%m-%d'
 
+github: [metadata]
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
 url:
@@ -19,7 +20,7 @@ baseurl:
 permalink: pretty
 
 # Pagination
-paginate: 10
+paginate: 25
 #paginate_path: "/page:num/"
 #archive:
   #paginate: 10
@@ -92,7 +93,7 @@ rss:
 authoricon: heart
 
 # Footer `powered-by` and `theme-info` copyright
-copyright: true
+copyright: false
 
 # ---------------------------------------------------------------
 # SEO Settings
@@ -108,7 +109,7 @@ seo: false
 
 # If true, will add site-subtitle to index page, added in jekyll config.
 # subtitle: Subtitle
-index_with_subtitle: false
+index_with_subtitle: true
 
 # ---------------------------------------------------------------
 # Menu Settings
@@ -303,7 +304,7 @@ excerpt_description: true
 # Automatically Excerpt. Not recommend.
 # Please use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
-  enable: false
+  enable: true
   length: 150
 
 # Post meta display settings
@@ -361,8 +362,8 @@ highlight_theme: normal
 
 # MathJax Support
 mathjax:
-  enable: false
-  per_page: false
+  enable: true
+  per_page: true
   cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
 
 # Han Support docs: https://hanzi.pro/
@@ -408,12 +409,21 @@ changyan:
 
 # Support for gitalk comments system.
 gitalk:
+<<<<<<< HEAD
+  enable: true
+  clientID: 6a2cd72582f80d4e904b
+  clientSecret: 1613d6f90b5799da19685925c3047025ab298c69
+  repo: wendyqiang.github.io
+  owner: wendyqiang
+  admin: wendyqiang
+=======
   enable: false
   clientID: # 54730ddf7b9420460c03
   clientSecret: # c05684701b25ff1c19ea0c01ce4d80c125e0707d
   repo: # colingpt.github.io
   owner: # colingpt
   admin: # colingpt
+>>>>>>> 7fca56d71c6dae5a86ee6e3eda17e86e722c66c5
 
 # Baidu Share
 # Available value:
@@ -548,7 +558,7 @@ calendar:
 
 # Algolia Search
 algolia_search:
-  enable: false
+  enable: true
   hits:
     per_page: 10
   labels:
@@ -559,7 +569,7 @@ algolia_search:
 
 # Local search
 local_search:
-  enable: false
+  enable: true
   # if auto, trigger search by changing input
   # if manual, trigger search by pressing enter key or search button
   trigger: auto
