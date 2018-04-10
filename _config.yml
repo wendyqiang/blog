@@ -12,7 +12,7 @@ author: Wendy Qiang
 language: zh-Hans
 date_format: '%Y-%m-%d'
 
-github: https://github.com/wendiqiang/blog
+github: [metadata]
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
 url: https://wendyqiang.github.io
@@ -412,7 +412,7 @@ gitalk:
   enable: true
   clientID: 6a2cd72582f80d4e904b
   clientSecret: 1613d6f90b5799da19685925c3047025ab298c69
-  repo: wendyqiang.github.io/blog
+  repo: wendyqiang.github.io
   owner: wendyqiang
   admin: wendyqiang
 
